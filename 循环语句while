@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main() {
+	int line = 2000;
+	while (line < 20000) {
+
+
+
+		printf("写代码:%d\n	",line);
+		line++; 
+
+	}
+	if (line == 20000)
+	{
+		printf("还不错");
+	}
+
+
+
+}
