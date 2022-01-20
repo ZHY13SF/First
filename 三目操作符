@@ -1,0 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	int a = 5;
+	int b = 3;
+	int MAX = 0;
+	MAX = a > b ? a : b;
+	printf("%d", MAX);
+	return 0;
+}
